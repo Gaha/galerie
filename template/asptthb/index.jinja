@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>ASPTT Handball - Coupures de presse 1/2</title>
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="js/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/source/jquery.fancybox.js?v=2.1.5"></script>
+
+	<link rel="stylesheet" href="js/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+	<link rel="stylesheet" href="js/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<script src="js/modernizr.custom.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+            $(".fancybox").fancybox();
+		});
+    </script>
+</head>
+<body>
+    <header>
+        <div class='titre'>Grand Nancy ASPTT Handball</div>
+        <div class='coupure'>Coupures de presse</div>
+        <div class='saison'>Saison 2013/2014</div>
+        <div class='partie'>Partie 1/2</div>
+    </header>
+        
+    <section class='logo'>
+        <img src="images/logo/GRAND_NANCYV4.jpg">
+    </section>
+        
+    <section class='corps'>
+        <div class="container">
+            <ul class="grid effect-2" id="grid">
+                {% for image in jeux %}
+                <li>
+                    <a class="fancybox-button" rel="fancybox-button" href="{{ image[0] }}" title="{{ image[2] }}">
+						<img src="{{ image[1] }}" alt=""/>
+					</a>
+                </li>
+                {%endfor %}
+            </ul>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <!-- Les collectivités -->
+            <ul class="grid effect-2" id="grid">
+                <li><a href="http://www.cg54.fr/" target="_blank"><img src="images/partenaire/collectivites/collect_cg54.jpg" alt=""/></a></li>
+                <li><a href="http://www.vandoeuvre.fr/" target="_blank"><img src="images/partenaire/collectivites/collect_vandoeuvre.jpg" alt=""/></a></li>
+                <li><a href="http://www.nancy.fr/" target="_blank"><img src="images/partenaire/collectivites/collect_nancy.jpg" alt=""/></a></li>
+                <li><a href="http://www.grand-nancy.org/" target="_blank"><img src="images/partenaire/collectivites/collect_grnancy.jpg" alt=""/></a></li>
+                <li><a href="http://www.lorraine.eu/" target="_blank"><img src="images/partenaire/collectivites/collect_lorraine.jpg" alt=""/></a></li>
+                <li><a href="http://asptt.com/" target="_blank"><img src="images/partenaire/collectivites/collect_asptt.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <!--Les partenaires principaux-->
+            <ul class="grid effect-2" id="grid">
+                <li><a href="https://fr-fr.facebook.com/pages/7COM-Agence/117224544973076" target="_blank"><img src="images/partenaire/principaux/princ_7com.jpg" alt=""/></a></li>
+                <li><a href="http://www.agir-protection-surveillance.fr/" target="_blank"><img src="images/partenaire/principaux/princ_agir.jpg" alt=""/></a></li>
+                <li><a href="http://www.auditpaiegestion.fr/" target="_blank"><img src="images/partenaire/principaux/princ_apg.jpg" alt=""/></a></li>
+                <li><a href="http://www.groupe-arcan.com/" target="_blank"><img src="images/partenaire/principaux/princ_arcan.jpg" alt=""/></a></li>
+                <li><a href="http://www.axa.fr/" target="_blank"><img src="images/partenaire/principaux/princ_axa.jpg" alt=""/></a></li>
+                <li><a href="http://www.bowling54.fr/" target="_blank"><img src="images/partenaire/principaux/princ_bowling.jpg" alt=""/></a></li>
+                <li><a href="http://www.cavessaintcharles.com/" target="_blank"><img src="images/partenaire/principaux/princ_caves.jpg" alt=""/></a></li>
+                <li><a href="http://www.lechatnoir.fr/" target="_blank"><img src="images/partenaire/principaux/princ_chat.jpg" alt=""/></a></li>
+                <li><a href="http://www.cofelyineo-gdfsuez.com/" target="_blank"><img src="images/partenaire/principaux/princ_cofely.jpg" alt=""/></a></li>
+                <li><a href="http://www.comite54handball.com/" target="_blank"><img src="images/partenaire/principaux/princ_com54.jpg" alt=""/></a></li>
+                <li><a href="http://www.culturesducoeur.org/Site_National/Blog/PageIndexBlog_NationalJudith.asp?Depart=54&id=0" target="_blank"><img src="images/partenaire/principaux/princ_culture.jpg" alt=""/></a></li>
+                <li><a href="https://fr-fr.facebook.com/edgconduite" target="_blank"><img src="images/partenaire/principaux/princ_edg.jpg" alt=""/></a></li>
+                <li><a href="http://www.ecole-tunon.com/fr/ecole-de-tourisme-nancy_p67" target="_blank"><img src="images/partenaire/principaux/princ_ecole.jpg" alt=""/></a></li>
+                <li><a href="http://www.franceparebrise.org/" target="_blank"><img src="images/partenaire/principaux/princ_parebrise.jpg" alt=""/></a></li>
+                <li><a href="http://www.graffidee.com/" target="_blank"><img src="images/partenaire/principaux/princ_graffidee.jpg" alt=""/></a></li>
+                <li><a href="http://www.linternaute.com/restaurant/restaurant/22739/il-gustatori.shtml" target="_blank"><img src="images/partenaire/principaux/princ_gustatori.jpg" alt=""/></a></li>
+                <li><a href="http://www.insmatel.fr/" target="_blank"><img src="images/partenaire/principaux/princ_insmatel.jpg" alt=""/></a></li>
+                <li><a href="http://www.jlfactory.com/" target="_blank"><img src="images/partenaire/principaux/princ_jlfactory.jpg" alt=""/></a></li>
+                <li><a href="http://www.lorraine-handball.com/" target="_blank"><img src="images/partenaire/principaux/princ_liguelor.jpg" alt=""/></a></li>
+                <li><a href="http://www.lorrainegraphic.com/" target="_blank"><img src="images/partenaire/principaux/princ_lorrainegraph.jpg" alt=""/></a></li>
+                <li><a href="http://www.theloveboat-bar.com/" target="_blank"><img src="images/partenaire/principaux/princ_loveboat.jpg" alt=""/></a></li>
+                <li><a href="http://www.neftis.com/" target="_blank"><img src="images/partenaire/principaux/princ_neftis.jpg" alt=""/></a></li>
+                <li><a href="http://www.ruedesfleurs.com/" target="_blank"><img src="images/partenaire/principaux/princ_ruefleurs.jpg" alt=""/></a></li>
+                <li><a href="http://www.autocars-schidler.com/" target="_blank"><img src="images/partenaire/principaux/princ_schidler.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <!--Les partenaires officiels-->
+            <ul class="grid effect-2" id="grid">
+                <li><a href="http://www.aktua.fr/" target="_blank"><img src="images/partenaire/officiels/off_aktua.jpg" alt=""/></a></li>
+                <li><a href="http://www.cirmad.com/" target="_blank"><img src="images/partenaire/officiels/off_cirmad.jpg" alt=""/></a></li>
+                <li><a href="http://www.hummel-sport.fr/" target="_blank"><img src="images/partenaire/officiels/off_hummel.jpg" alt=""/></a></li>
+                <li><a href="http://www.laposte.fr/" target="_blank"><img src="images/partenaire/officiels/off_laposte.jpg" alt=""/></a></li>
+                <li><a href="http://www.novamut.fr/" target="_blank"><img src="images/partenaire/officiels/off_novamut.jpg" alt=""/></a></li>
+                <li><a href="http://www.parkinn.fr/" target="_blank"><img src="images/partenaire/officiels/off_parkinn.jpg" alt=""/></a></li>
+                <li><a href="http://www.cirmad-est.fr/" target="_blank"><img src="images/partenaire/officiels/off_pertuy.jpg" alt=""/></a></li>
+                <li><a href="http://www.sherpa-copieurs.fr/" target="_blank"><img src="images/partenaire/officiels/off_sherpa.jpg" alt=""/></a></li>
+                <li><a href="http://www.sport2000nehlig.com/" target="_blank"><img src="images/partenaire/officiels/off_sport2000.jpg" alt=""/></a></li>
+                <li><a href="http://www.esseylesnancy.fr/contacts/kia-saint-christophe-automobiles" target="_blank"><img src="images/partenaire/officiels/off_kia.jpg" alt=""/></a></li>
+                <li><a href="http://www.reseau-stan.com/" target="_blank"><img src="images/partenaire/officiels/off_stan.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <!--Les partenaires média-->
+            <ul class="grid effect-2" id="grid">
+                <li><a href="https://www.facebook.com/acces.sport.mag" target="_blank"><img src="images/partenaire/media/med_acces.jpg" alt=""/></a></li>
+                <li><a href="http://www.estrepublicain.fr/" target="_blank"><img src="images/partenaire/media/med_estrep.jpg" alt=""/></a></li>
+                <li><a href="http://fajet.net/" target="_blank"><img src="images/partenaire/media/med_fajet.jpg" alt=""/></a></li>
+                <li><a href="http://www.francebleu.fr/station/france-bleu-sud-lorraine" target="_blank"><img src="images/partenaire/media/med_francebleu.jpg" alt=""/></a></li>
+                <li><a href="http://www.funradio.fr/radio/regions/lorraine" target="_blank"><img src="images/partenaire/media/med_fun.jpg" alt=""/></a></li>
+                <li><a href="http://www.ici-c-nancy.fr/" target="_blank"><img src="images/partenaire/media/med_icicnancy.jpg" alt=""/></a></li>
+                <li><a href="http://www.lasemaine.fr/nancy-agglomeration/sommaire" target="_blank"><img src="images/partenaire/media/med_lasemaine.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+    </section>
+    </footer>
+
+
+    <script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/imagesloaded.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/AnimOnScroll.js"></script>
+	<script>
+        new AnimOnScroll( document.getElementById( 'grid' ), {
+            minDuration : 0.4,
+            maxDuration : 0.7,
+            viewportFactor : 0.2
+        } );
+    </script>
+</body>
+</html>
